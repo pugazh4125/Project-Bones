@@ -33,3 +33,9 @@ The project name **BONES** is inspired by names from Iron Man comics.
 The Python script sends joint angle values through the serial port.  
 The Arduino reads these values and adjusts the servo positions accordingly.  
 The arm responds instantly to slider movements, enabling precise manual control.
+
+## **Future Updates**
+-Adding more degrees of freedom
+-Creating automated motion sequences
+-Upgrading the body from cardboard to a stronger material
+-Implementing gesture control with sensors like the MPU6050
