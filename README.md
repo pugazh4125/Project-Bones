@@ -7,7 +7,7 @@ This is an Arduino-controlled robotic arm designed for simple, precise movement 
 ## **Overview**
 This robotic arm is a 3-DOF (Degrees of Freedom) build.  
 The structure is made using cardboard and ice sticks, keeping the design lightweight and cost-effective.  
-The project name **BONES** is inspired by names from Iron Man comics.
+The project name **BONES** is inspired from Iron Man comics.
 
 ## **Features**
 - Real-time manual control using Python sliders  
