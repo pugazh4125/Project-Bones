@@ -2,6 +2,8 @@
   <img src="Bones.gif" width="500">
 </p>
 
+Above is an prototype of an robotic arm
+
 This is an Arduino-controlled robotic arm designed for simple, precise movement using commands sent through the serial port. A Python slider interface is used to send these commands, making it easy to control each joint in real time.(havent added proper base for the arm yet that's why i am holding it using my hand😅 in future updates i will make a base too)
 
 ## **Overview**
