@@ -1,41 +1,60 @@
 [![Bones v2 Demo](https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg)](https://youtube.com/shorts/jO0Q1HlnmCU)
 
-Above is an prototype of an robotic arm
+# **Bones v2 – Arduino + Joystick + MPU Controlled Robotic Arm**
 
-This is an Arduino-controlled robotic arm designed for simple, precise movement using commands sent through the serial port. A Python slider interface is used to send these commands, making it easy to control each joint in real time.(havent added proper base for the arm yet that's why i am holding it using my hand😅 in future updates i will make a base too)
+This is the upgraded version of the Bones robotic arm project. The arm now supports joystick control, button-based mode switching, and MPU6050-based motion tracking. The movement is smoother, more responsive, and far more intuitive than the earlier Python-slider control version.The Bones V1 worked by giving commands by a python slider which communicates to arduino via the serial port.(I have provided both V1 and V2 codes in the repo)
 
 ## **Overview**
-This robotic arm is a 3-DOF (Degrees of Freedom) build.  
-The structure is made using cardboard and ice sticks, keeping the design lightweight and cost-effective.  
-The project name **BONES** is inspired from Iron Man comics.
+Bones v2 is a multi-DOF robotic arm designed for precise and fluid movement.  
+The mechanical structure still follows a lightweight, low-cost approach, but the control system is now significantly more advanced.
 
-## **Features**
-- Real-time manual control using Python sliders  
-- Smooth servo movement using Arduino  
-- Lightweight handcrafted structure  
-- Adjustable joint angles through serial communication  
-- Beginner-friendly and easy to replicate  
+The project name **BONES** inspired by Iron Man comics.
+
+## **New Features in Bones v2**
+- **Joystick-based servo control** for intuitive manual manipulation  
+- **MPU6050 motion sensor control** for gesture-based operation  
+- **Push-button mode switching** between joystick control and MPU control  
+- **Ultra-smooth servo movements** with filtering and speed control  
+- **Fine near-center sensitivity** for delicate robotic arm adjustments  
+- **Improved power stability** using capacitors to smooth servo loads  
+- **Supports both continuous and 180-degree servos**  
+
+## **Existing Features**
+- Manual control via Arduino (formerly Python sliders)  
+- Adjustable joint angles through real-time inputs  
+- Beginner-friendly and easy to expand  
 
 ## **Components Used**
+- MG996 Servo motor (Base)
 - MG995 Servo Motor (Shoulder)  
 - MG90S Servo Motor (Elbow)  
 - SG90 Servo Motor (Gripper)  
+- Joystick Module  
+- MPU6050 Sensor  
 - Arduino Uno  
 - Breadboard & Jumper Wires  
-- SMPS 12V 2A, bucked down to 5.1V  
-- Cardboard + Ice Sticks for the arm structure  
+- SMPS 12V 2A bucked down to 5.1V  
+- Lightweight cardboard + wooden stick structure (temporary prototype)
 
-## **Software**
-- Arduino IDE for servo control  
-- Python for serial communication and slider control  
+## **Control Modes**
+### **1. Joystick Mode**
+- X and Y axes control different servos  
+- High sensitivity near the center for precise micro-movements  
+- Slow-step servo increments for stable lifting
+
+### **2. MPU Mode**
+- Arm follows the user’s hand tilt and rotation  
+- Smooth filtered sensor data  
+- Activated via push-button  
 
 ## **How It Works**
-The Python script sends joint angle values through the serial port.  
-The Arduino reads these values and adjusts the servo positions accordingly.  
-The arm responds instantly to slider movements, enabling precise manual control.
+Joystick or MPU values are read by the Arduino.  
+The Arduino processes the inputs, applies smoothing, and updates servo angles gradually to avoid sudden jumps.  
+This enables realistic robotic motion and improved lifting capability.
 
 ## **Future Updates**
-- Adding more degrees of freedom
-- Creating automated motion sequences
-- Upgrading the body from cardboard to a stronger material
-- Implementing gesture control with sensors like the MPU6050
+- Stronger physical structure with a proper base  
+- More DOF for advanced movement  
+- Automated motion sequences and presets  
+- Gesture control refinements  
+- Swapping cardboard components for high-durability materials  
