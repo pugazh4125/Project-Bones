@@ -2,7 +2,6 @@
   <a href="https://youtube.com/shorts/jO0Q1HlnmCU">
     <img src="https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg" width="300" style="margin-right: 20px;">
   </a>
-Click the robotic arm image to view the working video.
   <img src="controller.jpg" width="300">
 </p>
 
