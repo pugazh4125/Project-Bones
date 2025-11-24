@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="Bones.gif" width="500">
-</p>
+[![Bones v2 Demo](https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg)](https://youtube.com/shorts/jO0Q1HlnmCU)
 
 Above is an prototype of an robotic arm
 
