@@ -3,6 +3,10 @@
     <img src="https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg" width="350">
   </a>
 </p>
+click the robotic arm image to view the working video
+<p align="center">
+  <img src="controller.jpg" width="300">
+</p>
 
 
 # **Bones v2 – Arduino + Joystick + MPU Controlled Robotic Arm**
