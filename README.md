@@ -1,4 +1,6 @@
-[![Bones v2 Demo](https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg)](https://youtube.com/shorts/jO0Q1HlnmCU)
+<a href="https://youtube.com/shorts/jO0Q1HlnmCU">
+  <img src="https://img.youtube.com/vi/jO0Q1HlnmCU/maxresdefault.jpg" width="350">
+</a>
 
 # **Bones v2 – Arduino + Joystick + MPU Controlled Robotic Arm**
 
